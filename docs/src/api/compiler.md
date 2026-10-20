@@ -15,6 +15,14 @@ Metal.mtlconvert
 Metal.mtlfunction
 ```
 
+Kernels that weren't compiled by Metal.jl, e.g., from a precompiled Metal library, can be
+launched with `metalcall`:
+
+```@docs
+metalcall
+Metal.metalcall_tuple
+```
+
 
 ## Reflection
 
